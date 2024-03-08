@@ -46,7 +46,7 @@ Notice the difference in the code section `ft.app(target=main,port=8080, view=No
 ### Result :
 
 <p align="center">
-    <img src="./gambar-petunjuk/under_construction.png.png" alt="under_construction.png" style="display: block; margin: 0 auto;">
+    <img src="./gambar-petunjuk/under_construction.png" alt="under_construction" style="display: block; margin: 0 auto;">
 </p>
 <p align="center">web</p>
 
