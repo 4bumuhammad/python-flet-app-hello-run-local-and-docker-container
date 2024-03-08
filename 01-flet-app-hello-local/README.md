@@ -76,6 +76,12 @@ command for deploy web
 
 ### Notes :
 
+    ❯ flet --version
+
+        0.21.1
+
+
+
     ❯ pip list
 
         Package               Version
