@@ -41,12 +41,38 @@ Notice the difference in the code section `ft.app(target=main,port=8080, view=No
 ### &#x1F525; Build and run :
 
 
+    ❯ docker build -t flethello .
+
+    ❯ docker run -d --name flethello-app -p 8080:8080 flethello
+
+
+
+    # list
+
+    ❯ docker images
+
+        REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
+        flethello    latest    97cfbe970627   28 seconds ago   143MB
+
+
+    ❯ docker ps -a --format "table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}\t{{.Ports}}"
+
+        CONTAINER ID   IMAGE       STATUS          NAMES           PORTS
+        ad55e0e0b92d   flethello   Up 29 seconds   flethello-app   0.0.0.0:8080->8080/tcp
+
 
 
 ### Result :
 
 <p align="center">
-    <img src="./gambar-petunjuk/under_construction_small.png" alt="under_construction_small" style="display: block; margin: 0 auto;">
+    <img src="./gambar-petunjuk/ss_flet_web_app_container.png" alt="ss_flet_web_app_container" style="display: block; margin: 0 auto;">
 </p>
-<p align="center">web</p>
+<p align="center">web | app container</p>
 
+
+
+### Notes : 
+
+    ❯ docker --version
+
+        Docker version 20.10.14, build a224086
