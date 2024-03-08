@@ -47,12 +47,31 @@
 
 ### Run :
 
-command
+command for deploy desktop app
 
     ❯ flet main.py -d 
 
+        http://127.0.0.1:54993
+
+
+command for deploy web
+
+    ❯ flet main.py -w
+
+        http://127.0.0.1:56418
+
 
 ### Result :
+
+<p align="center">
+    <img src="./gambar-petunjuk/ss_desk_app_flet.png" alt="ss_desk_app_flet" style="display: block; margin: 0 auto;">
+</p>
+<p align="center">desktop apps</p>
+
+<p align="center">
+    <img src="./gambar-petunjuk/ss_web_flet.png" alt="ss_web_flet" style="display: block; margin: 0 auto;">
+</p>
+<p align="center">web</p>
 
 
 ### Notes :
