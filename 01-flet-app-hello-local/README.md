@@ -49,6 +49,12 @@
 
 command for deploy desktop app
 
+    ❯ flet run main.py
+
+        http://127.0.0.1:54993
+
+    # or 
+
     ❯ flet main.py -d 
 
         http://127.0.0.1:54993
@@ -56,9 +62,16 @@ command for deploy desktop app
 
 command for deploy web
 
+    ❯ flet run --web main.py
+
+        http://127.0.0.1:56418
+
+    # or 
+
     ❯ flet main.py -w
 
         http://127.0.0.1:56418
+
 
 
 ### Result :
