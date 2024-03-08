@@ -45,7 +45,7 @@
     ft.app(target=main, view=ft.WEB_BROWSER)
 
 
-### Run :
+### &#x1F3C3; Run :
 
 command for deploy desktop app
 
